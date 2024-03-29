@@ -1,0 +1,223 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    left: 50%;
+    right: 50%;
+}
+.header{
+    background-image: url('image.jpg');
+    background-repeat: no-repeat;
+    height: 1300px;
+    width: 1400px;
+}
+.black{
+    background-color: rgba(0, 0, 0, 0.5); 
+    position: relative;
+    width: 34.80%;
+    height: 10%;
+    left: -12px;
+}
+.tre{
+    position: absolute;
+    top:80%;
+}
+.grey{
+    background-color: rgba(128, 128, 128, 0.4);
+    position: relative;
+    top: -10%;
+    width:236px;
+    height: 299px;
+    left: 431px;
+    text-align: right;
+}
+.txt{
+    position: relative;
+    top: 50px;
+    right: 20px;
+}
+.square-bullets
+{
+    color:white;
+    font-size: 20px;
+    list-style-type: none;
+}
+.square-bullets li
+{
+ text-align: right;
+}
+.square-bullets li::after
+{
+    content:"\25A0";
+    margin-left:10px;
+}
+ .line
+{
+    background-color: #0bb5ff;
+    position: relative;
+    top:8%;
+    left:8.20%;
+    height: 4%;
+    width:5.80%;
+}
+.u
+{
+    color: white;
+    position: relative;
+    top:5%;
+    left: 8%;
+}
+.yellow
+{
+    color: white;
+    background-color: rgba(255, 211, 25, 0.7);
+    font-size: 50px;
+    width: 443px;
+    height: 153px;
+    position: absolute;
+    top:300px;
+    left: 12px;
+    padding: 2%;
+}
+.le{
+    position: relative;
+    top: 45%;
+    left: -41%;
+}
+.address{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 15px;
+    text-align: right;
+    position: absolute;
+    top: 300px;
+    left: 1215px;
+    width: 235px;
+    height: 152px;
+}
+.sky{
+    background-color: #0bb5ff;
+    color: white;
+    position: relative;
+    top: 453px;
+    left: 1214px;
+    height: 125px;
+    width: 236px;
+}
+.logo{
+    position: relative;
+    top: 25px;
+    left: 10%;
+    height: 55%;
+}
+.coded{
+    text-align: left;
+    font-size: 80%;
+    position: relative;
+    top: -15%;
+    left: 40%;
+}
+.cod{
+    font-size: 25px;
+    position: relative;
+    left: 5%;
+}
+.fi{
+    color: red;
+    font-size:47px;
+    position: relative;
+    top:320px;
+    left: 800px;
+
+}
+.start{
+    color: grey;
+    font-size: 22px;
+    position: relative;
+    top: 350px;
+    left: 645px;
+}
+.month{
+    color: grey;
+    position: relative;
+    left: 28.60%;
+    top: 380px;
+}
+.white{
+    background-color: rgba(128, 128, 128, 0.1);
+    position:absolute;
+    left:774px;
+    top: 578px;
+    height: 50%;
+    width: 29%;
+    border-bottom: 5px solid red;
+}
+
+.our{
+    color: red;
+    font-size: 18px;
+    position: relative;
+    top:3%;
+    left: 10%;
+}
+.co{
+    color: grey;
+    font-size: 40px;
+    position: relative;
+    top: 16%;
+    left: -22%;
+}
+.of{
+    position: absolute;
+    top: 70%;
+    left: -1%;
+}
+.lorem{
+    color: grey;
+    position: relative;
+    top: 15%;
+    left: 42px;
+}
+.pg{
+    color: grey;
+    font-size: 10px;
+    text-align: justify;
+    padding: 30px;
+    position: relative;
+    top: 8%;
+    left: 12px;
+}
+.second{
+    color: #0bb5ff ;
+    position: relative;
+    top: 425px;
+    left:1250px;
+    font-size: 40px;
+}
+.end{
+    color: grey;
+    font-size: 23px;
+    position: relative;
+    top: 380px;
+    left: 1253px;
+}
+.image{
+    position: relative;
+    top: 440px;
+    left: 1160px;
+}
+.earn{
+    color: grey;
+    text-align: right;
+    position: relative;
+    top: 430px;
+    left: -80px;
+}
+.pgr{
+    color: grey;
+    text-align: right;
+    font-size: 10px;
+    position: relative;
+    top: 430px;
+    left: -80px;
+}
